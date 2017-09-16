@@ -1,0 +1,144 @@
+body, html {
+  margin: 0;
+}
+body{
+  background-image: url('bg.png');
+}
+
+/*///////HEADER///////*/
+
+a{
+  text-decoration: none;
+  font-size: 21px;
+  color:#289e93;
+}
+#header{
+  z-index: 100;
+  color:#efefee;
+  width: 100%;
+  min-height: 40px;
+  min-width: 247px;  
+  position:fixed;
+  background: #d7cfbc;
+  font-size: 30px;
+  text-align: center;
+
+}
+#title{
+  float: left;
+  color:#289e93;
+  margin-left: 10px;
+}
+#contact{
+  float: right;
+  text-align: right;
+}
+#contact div{
+  display: inline-block;
+  margin-right: 10px;
+}
+
+@media (max-width: 485px) {
+  #title  {
+    display: inline-block;
+    width: 100%;
+  }
+  #contact{
+  float: left;
+  text-align: center;
+  }
+
+}
+
+
+/*///////BODY///////*/
+
+#container {
+
+  position: absolute; ;
+  top:50px;
+  left:10%;
+  width: 80%;
+  padding: 15px;
+  background: rgba(215,207,188,0.8);
+  min-width: 140px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 4px 0px black;
+  box-shadow: 3px 3px 2px rgba(0,0,0,0.2);
+  
+
+  color:rgba(17, 17, 17, 0.44);
+  font-size: 15px;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+#container h3{
+  padding-left: 100px; 
+}
+
+#container h4{
+  padding-left: 80px;
+}
+
+
+@media (max-width: 636px) {
+  #container{
+    top:75px;
+  }
+}
+@media (max-width: 485px) {
+  #container{
+    top:115px;
+  }
+}
+@media (max-width: 636px) {
+  #container h3{
+    padding-left: 40px; 
+  }
+  #container h4{
+    padding-left: 50px; 
+  } 
+}
+
+.img{
+  border:2px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: rgba(0,0,0,0);
+  margin: 0 5px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+
+}
+.imageLine{
+  max-height:160px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  text-align: center;
+}
+
+/*//////////RESULT////////*/
+
+#result{
+
+  text-align: center;
+  padding: 20px 100px;
+
+}
+#output{
+
+    display: inline-block;
+    font-size: 30px;
+
+}
+
+button{
+    border-radius: 0.35em;
+    border: solid 3px #efefef;
+    color: #787878;
+    height: 3.15em;
+    min-width: 10em;
+    display: inline-block;
+    text-align: center;
+}

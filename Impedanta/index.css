@@ -1,0 +1,32 @@
+#container {
+  font-size: 25px;
+  background: #FCF4DC;
+  width: 75%;
+  min-width: 140px;
+  padding: 10px 0;
+  text-align: center;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 4px 0px black;
+  box-shadow: 3px 3px 2px rgba(0,0,0,0.2);
+  position: absolute;
+  left:12.5%;
+  top:25%;
+  margin:auto;
+  opacity: .95;
+}
+button{
+    border-radius: 0.35em;
+    border: solid 3px #efefef;
+    color: #787878 !important;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    height: 3.15em;
+    height: calc(2.75em + 6px);
+    line-height: 2.75em;
+    min-width: 10em;
+    padding: 0 1.5em;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+}

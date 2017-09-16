@@ -1,0 +1,9 @@
+
+$(document).ready(function(){
+	
+	var calc = function (){
+		var u = $(u).innerHtml;
+		console.log(a);
+	}	
+
+});

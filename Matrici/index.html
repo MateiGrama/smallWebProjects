@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width"> 
+    <link href="index.css" rel="stylesheet" />
+  <title>Matrici</title>
+</head>
+<body>
+    <div id="container">
+        Calcutor operatii cu matrici si scalari
+        <br>
+        <span style ="font-size: 12px">*separarea elementelor matricei va fi marcata cu spatiu, iar a randurilor prin endLine </style>
+        <div id="expresion">
+
+            <textarea id="input1" class="expresion" placeholder="1st term of the expresion" ></textarea>
+            <select id="operation" class="expresion">
+                            <option value="+"> + </option>
+                            <option value="-"> - </option>
+                            <option value="*"> * </option>
+                            <option value="^"> ^ </option>
+            </select>
+            <textarea id="input2" class="expresion" placeholder="2nd term" ></textarea>
+
+            <button onclick="execute()">Execute</button>
+
+        </div>
+        <div id="output"></div>
+     </div>   
+</body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.9.0/math.min.js"></script>
+  <script src="index.js"></script>
+</html>
